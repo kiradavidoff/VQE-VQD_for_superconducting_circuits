@@ -1,3 +1,11 @@
+# Quantum computing
 qiskit
+qiskit-aer
+qiskit-algorithms
+qiskit-ibm-runtime
+
+# Numerical computing
+numpy
 scipy
 matplotlib
+pandas
