@@ -6,8 +6,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/kiradavidoff/VQE-VQD_for_superconducting_circuits
+cd VQE-VQD_for_superconducting_circuits
 ```
 
 ### 2. Create the Python environment
