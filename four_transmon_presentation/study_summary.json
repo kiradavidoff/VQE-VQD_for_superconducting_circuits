@@ -1,0 +1,35 @@
+{
+  "model": "Illustrative static effective four-transmon ring",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "noiseless_runs": 60,
+  "noise_runs": 30,
+  "evaluation_budget": 800,
+  "noise_budget": 600,
+  "nonidentity_paulis": 76,
+  "target_gap_khz": 10.0,
+  "exact_charge_energy_ghz": -41.53017642140659,
+  "projected_ground_energy_ghz": -41.53017630513335,
+  "best_optimizer": "COBYLA",
+  "best_initialization": "Perturbative",
+  "best_charge_error_khz": 3.83648198010178,
+  "best_projected_gap_khz": 3.7202087455057153,
+  "cutoff_shift_khz": 154.5526192643365,
+  "figure_count": 14,
+  "python": "3.14.0",
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "openblas_threads": "system default",
+  "spsa_settings": {
+    "gain": 0.02,
+    "perturbation": 0.02,
+    "stability": 20,
+    "gradient_clip": 5,
+    "averaging": "second half"
+  },
+  "noise_model": "Independent Pauli shots and separate global output depolarizing channel"
+}
