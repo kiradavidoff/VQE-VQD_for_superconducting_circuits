@@ -4,7 +4,7 @@ A Qiskit project investigating ground-state energies, first-excited-state energi
 
 **Project status:** the main classical simulations have validated saved runs. IBM hardware experiments are exploratory; accurate hardware transition energies have not been demonstrated. Earlier investigations and their results are retained separately.
 
-## Intro
+## Introduction
 
 These are the main project entry points. A file's role and validation status are separate: a hardware entry point is not automatically an accurate hardware benchmark.
 
