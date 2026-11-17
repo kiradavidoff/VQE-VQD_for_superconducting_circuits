@@ -1,0 +1,24 @@
+# Local environments, caches and editor state.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# Local credentials.
+.env
+.env.*
+.qiskit/
+qiskit-ibm.json
+qiskit-ibm-runtime.json
+
+# New local outputs; curated recorded runs live under results/.
+/single_transmon_ibm_results.json
+/four_transmon_ibm_results.json
+/ibm_open_plan_transmon_vqe_result.json
+four_transmon_vqd_figures/
+four_transmon_vqd_data/
+*.json.tmp

@@ -1,0 +1,189 @@
+{
+  "base_main": "179de402fe83881d9a1e7279deeca4c8bba1d4fd",
+  "merged_branch_tips": {
+    "VQE_Simulations_Datrim": "b7d53b635c350109bdbb7c0f1a4997016f8ae92b",
+    "VQE_VQD_Benji_Datrim_IBM_Quantum_Run": "a07b9a1d29fa4efc3850beddfdefced6bee419a2",
+    "VQE_VQD_Benji": "0a593a90fb9645fe40f78556a4b9d2dcf792fd08",
+    "vqd-implementation": "e8a2e53ea188636fc8bcf47624e9693de698bb26",
+    "vqe-attempt-j": "9e03e68d08cefaf86ae8cbd7d22652606d531696"
+  },
+  "preserved_notebooks": [
+    {
+      "original_path": "VQE_Coupled_Transmon.ipynb",
+      "original_blob": "0ee247c324f6a9b2433b146c6437903e5d36e1f1",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/notebooks/VQE_Coupled_Transmon.ipynb",
+      "saved_executed_cells": 14,
+      "code_cells": 15
+    },
+    {
+      "original_path": "VQE_Four_Coupled_Transmons.ipynb",
+      "original_blob": "4c26d1973999dcacec8da9db7dc87abf80549c61",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/notebooks/VQE_Four_Coupled_Transmons.ipynb",
+      "saved_executed_cells": 17,
+      "code_cells": 17
+    },
+    {
+      "original_path": "VQE_Four_Transmons_Comparisons.ipynb",
+      "original_blob": "ca32027091d0fcc0ba428c17d4439930c57bc56a",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/notebooks/VQE_Four_Transmons_Comparisons.ipynb",
+      "saved_executed_cells": 38,
+      "code_cells": 38
+    },
+    {
+      "original_path": "VQE_Single_Transmon.ipynb",
+      "original_blob": "e594a1a201079273c5cc2cda7df26ffd833bb326",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/notebooks/VQE_Single_Transmon.ipynb",
+      "saved_executed_cells": 14,
+      "code_cells": 14
+    },
+    {
+      "original_path": "VQE_VQD_Four_Transmons_Final.ipynb",
+      "original_blob": "231de238c21243bae6ff76ad231536009ffd0fde",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/previous_four_transmon_model/VQE_VQD_Four_Transmons_Final.ipynb",
+      "saved_executed_cells": 25,
+      "code_cells": 25
+    },
+    {
+      "original_path": "VQE_VQD_Four_Transmons_IBM_ADAM_SPSA.ipynb",
+      "original_blob": "2216370c745a269a5d47fc11e45758c8ec4f87fa",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "VQE_VQD_Four_Transmons_IBM_ADAM_SPSA.ipynb",
+      "saved_executed_cells": 9,
+      "code_cells": 9
+    },
+    {
+      "original_path": "VQE_VQD_Single_Transmon_Simulation.ipynb",
+      "original_blob": "8f924c946e7dcdfdabb6e4ae2559372b3d8a5769",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "VQE_VQD_Single_Transmon_Simulation.ipynb",
+      "saved_executed_cells": 24,
+      "code_cells": 24
+    },
+    {
+      "original_path": "VQE_experiments.ipynb",
+      "original_blob": "9926f0db75274cce2e8bbf23b3e05d0c8f814392",
+      "branches": [
+        "VQE_Simulations_Datrim",
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run",
+        "vqe-attempt-j",
+        "main"
+      ],
+      "current_path": "archive/variants/main/VQE_experiments.ipynb",
+      "saved_executed_cells": 8,
+      "code_cells": 9
+    },
+    {
+      "original_path": "IBM_Open_Plan_Transmon_VQE.ipynb",
+      "original_blob": "7612171cdf10f26b8486602ed20d66c1533c2052",
+      "branches": [
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/hardware/IBM_Open_Plan_Transmon_VQE.ipynb",
+      "saved_executed_cells": 0,
+      "code_cells": 9
+    },
+    {
+      "original_path": "test_IBM.ipynb",
+      "original_blob": "7dabb0884607d95255b109225f01de62ebe2127f",
+      "branches": [
+        "VQE_VQD_Benji_Datrim_IBM_Quantum_Run"
+      ],
+      "current_path": "archive/hardware/test_IBM.ipynb",
+      "saved_executed_cells": 2,
+      "code_cells": 4
+    },
+    {
+      "original_path": "VQE_VQD_EPR_Transmon_ADS.ipynb",
+      "original_blob": "ea6b0a13003e6e8244289c578bcdd12fe9bf6940",
+      "branches": [
+        "VQE_VQD_Benji"
+      ],
+      "current_path": "archive/notebooks/VQE_VQD_EPR_Transmon_ADS.ipynb",
+      "saved_executed_cells": 15,
+      "code_cells": 15
+    },
+    {
+      "original_path": "VQE_experiments.ipynb",
+      "original_blob": "9b2937f6b3819ccb0488a23dec647c0da6ffba4e",
+      "branches": [
+        "VQE_VQD_Benji"
+      ],
+      "current_path": "archive/variants/VQE_VQD_Benji/VQE_experiments.ipynb",
+      "saved_executed_cells": 8,
+      "code_cells": 9
+    },
+    {
+      "original_path": "VQE_VQD_Optimizer_Noise_Benchmark.ipynb",
+      "original_blob": "95ad87e46a6af12cfb1292feff5e588bbe125cd1",
+      "branches": [
+        "vqd-implementation"
+      ],
+      "current_path": "benchmarks/VQE_VQD_Optimizer_Noise_Benchmark.ipynb",
+      "saved_executed_cells": 10,
+      "code_cells": 12
+    },
+    {
+      "original_path": "VQE_experiments.ipynb",
+      "original_blob": "082358f10903e5dff21381f95a126ba3e62b1200",
+      "branches": [
+        "vqd-implementation"
+      ],
+      "current_path": "archive/variants/vqd-implementation/VQE_experiments.ipynb",
+      "saved_executed_cells": 26,
+      "code_cells": 29
+    },
+    {
+      "original_path": "transmon_vqe_vqd.ipynb",
+      "original_blob": "45e621dabac3284620437d0a5622227460cededb",
+      "branches": [
+        "vqd-implementation"
+      ],
+      "current_path": "archive/notebooks/transmon_vqe_vqd.ipynb",
+      "saved_executed_cells": 11,
+      "code_cells": 11
+    },
+    {
+      "original_path": "VQE_transmon_LBFGSB_v2.ipynb",
+      "original_blob": "d2aba631b6f35c91dcb5409453b0a1890229af05",
+      "branches": [
+        "vqe-attempt-j"
+      ],
+      "current_path": "archive/notebooks/VQE_transmon_LBFGSB_v2.ipynb",
+      "saved_executed_cells": 13,
+      "code_cells": 13
+    }
+  ],
+  "new_primary_four_transmon_model": {
+    "source": "Validated updated notebook prepared during the project work",
+    "path": "VQE_VQD_Four_Transmons_Final.ipynb",
+    "sha256": "f5b98829c2107fb878ddb1f154122b17d4203ed81126a6f389bbe42352c8bdbf",
+    "paired_parameters": "four_transmon_best_parameters.json",
+    "transition_GHz": 6.20000019672942
+  }
+}

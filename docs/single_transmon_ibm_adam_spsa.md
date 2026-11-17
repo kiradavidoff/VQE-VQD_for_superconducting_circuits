@@ -11,7 +11,7 @@ Put the Python file and your **own** `single_transmon_best_parameters.json` in t
 The supplied requirements reproduce the tested environment: Python 3.14.0, Qiskit 2.2.3, Runtime 0.43.1, NumPy 2.3.4, SciPy 1.16.3, and Matplotlib 3.10.7. The requirements support Python 3.11 or later, subject to platform package availability.
 
 ```bash
-python -m pip install -r requirements_single_transmon_ibm.txt
+python -m pip install -r requirements.txt
 ```
 
 The implementation uses the explicit Runtime `EstimatorV2`/`SamplerV2` APIs available in this tested version. IBM's newer documentation also describes newer client-side primitive implementations; this script does not require those experimental interfaces. QPY should be read with a Qiskit version compatible with the version that created the export.
@@ -110,7 +110,7 @@ Use `--plot` to display energy/cost, overlap, transition and charge-distribution
 - Actual installed Runtime V2 primitives executed against a local `GenericBackendV2` using IBM's local-testing path. No account or QPU connection was used.
 - A five-qubit run using the exported circuit family and the notebook's physical parameters.
 
-**Actual IBM QPU execution has not been performed.** Credentials, backend availability, account limits, hardware compilation and attainable accuracy must be evaluated in your environment.
+Actual single-transmon runs on `ibm_fez` are now recorded in the [hardware results](../results/hardware/README.md). They show poor spectrum recovery and a later interruption at the instance usage limit. Local test success does not establish QPU accuracy. Backend availability, account limits and attainable accuracy still need assessment for each new experiment.
 
 ## Sources
 
