@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Additional single-transmon benchmark dependencies.
+plotly>=6,<7
+pandas>=2.2,<3

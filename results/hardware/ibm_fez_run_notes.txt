@@ -1,0 +1,32 @@
+First Run
+---------------------------
+(.venv) PS C:\Users\Benji\VQE-VQD_for_superconducting_circuits> python single_transmon_ibm_adam_spsa.py --mode hardware --ground-steps 0 --excited-steps 0 --shortlist 1 --final-repeats 1 --shots 1024 --validation-shots 4096
+>> 
+Model: 5 qubits; 78 Pauli terms; backend ibm_fez
+ground: depth 2783; two-qubit gates 834
+excited: depth 2797; two-qubit gates 853
+warm_start_overlap: depth 5415; two-qubit gates 1699
+ground: warm-start cost = 15.142762865 GHz
+excited: warm-start cost = 15.788760415 GHz
+E0/h = 14.719272544 +/- 0.269 GHz (statistical)
+E1/h = 14.934777800 +/- 0.248 GHz (statistical)
+f01 = 0.215505256 +/- 0.366 GHz (statistical)
+Absolute frequency error versus charge model: 4777772.622 kHz
+Raw overlap probability: 0.01660; self-overlap diagnostic: 0.01465
+Padding probabilities: ground 0.53687, excited 0.52466
+
+
+Second Run
+-----------------------
+Results and job IDs: C:\Users\Benji\VQE-VQD_for_superconducting_python single_transmon_ibm_adam_spsa.py --mode hardware --ground-steps 5 --excited-steps 5 --shortlist 2 --final-repeats 1 --shots 2048 --validation-shots 4096
+>> 
+env PS C:\Users\Benji\VQE-VQD_for_superconducting_circuits> 
+Model: 5 qubits; 78 Pauli terms; backend ibm_fez
+ground: depth 2783; two-qubit gates 834
+excited: depth 2797; two-qubit gates 853
+warm_start_overlap: depth 5415; two-qubit gates 1699
+ground: warm-start cost = 14.940876662 GHz
+ground: step 5, cost = 13.742379659 GHz
+excited: warm-start cost = 15.158598338 GHz
+C:\Users\Benji\VQE-VQD_for_superconducting_circuits\.venv\Lib\site-packages\qiskit_ibm_runtime\qiskit_runtime_service.py:1353: UserWarning: This instance has met its usage limit. Workloads will not run until time ismadeavailable. Check https://quantum.cloud.ibm.com/instances/crn%3Av1%3Abluemix%3Apublic%3Aquantum-computing%3Aus-east%3Aa%2F49e519097e95402faf3a2b45ecf0c249%3A428f508b-a184-4631-8b5e-d3c541c8cb04%3A%3A for more details.
+  warnings.warn

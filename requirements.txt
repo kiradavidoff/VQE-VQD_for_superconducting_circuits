@@ -1,11 +1,11 @@
-# Quantum computing
-qiskit
-qiskit-aer
-qiskit-algorithms
-qiskit-ibm-runtime
+# Checked numerical / quantum packages. Python >=3.11; local checks used 3.14.0.
+qiskit==2.2.3
+qiskit-ibm-runtime==0.43.1
+numpy==2.3.4
+scipy==1.16.3
+matplotlib==3.10.7
 
-# Numerical computing
-numpy
-scipy
-matplotlib
-pandas
+# Notebook interface and live Markdown result tables.
+ipython>=8,<10
+ipykernel>=6,<8
+jupyterlab>=4,<5
